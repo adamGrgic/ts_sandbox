@@ -1,0 +1,11 @@
+// Custom.scss
+
+$theme-colors: (
+    "primary": #5b9cff,
+    "dark": #f7fffa,
+    "light": #202020,
+
+);
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+
