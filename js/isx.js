@@ -1,11 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ZipCodeValidator = exports.numberRegexp = void 0;
-exports.numberRegexp = /^[0-9]+$/;
-class ZipCodeValidator {
-    isAcceptable(s) {
-        return s.length === 5 && exports.numberRegexp.test(s);
+export var numberRegexp = /^[0-9]+$/;
+var ZipCodeValidator = (function () {
+    function ZipCodeValidator() {
     }
-}
-exports.ZipCodeValidator = ZipCodeValidator;
+    ZipCodeValidator.prototype.isAcceptable = function (s) {
+        return s.length === 5 && numberRegexp.test(s);
+    };
+    return ZipCodeValidator;
+}());
+export { ZipCodeValidator };
 //# sourceMappingURL=isx.js.map

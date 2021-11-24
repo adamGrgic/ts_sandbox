@@ -1,3 +1,3 @@
-export interface TestInterface {
-    isTest(s: boolean): boolean;
+export interface StringValidator {
+    isAcceptable(s: string): boolean;
 }
