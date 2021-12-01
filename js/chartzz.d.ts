@@ -1,1 +1,12 @@
-export {};
+declare const ctx: any;
+declare const myChart: any;
+declare const ctx2: any;
+declare const myChart2: any;
+declare const ctx3: any;
+declare const myChart3: any;
+declare const ctx4: any;
+declare const myChart4: any;
+declare const ctx5: any;
+declare const myChart5: any;
+declare const ctx6: any;
+declare const myChart6: any;
