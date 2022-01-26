@@ -30,9 +30,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <script>
+        // Lesson: Learn how to use .find, .reduce, and .map in javascript
+
+
+
+        // 1. Reduce
+        // "reduce" array of values into one single value
+        // works by doing something to previous value along with current value
+
         const array1 = [1, 2, 3, 4];
         const additive = 10;
-        const reducer = (previousValue, currentValue) => previousValue - currentValue;
+        const reducer = (previousValue, currentValue) => previousValue + currentValue;
 
         // 1 + 2 + 3 + 4
         console.log(array1.reduce(reducer));
@@ -41,6 +49,30 @@
         // 5 + 1 + 2 + 3 + 4
         console.log(array1.reduce(reducer, 5));
         // expected output: 15
+
+
+        // 2. Find
+        // "find" first item in array that fits a certain condition 
+
+        const array1 = [5, 12, 8, 130, 44];
+
+        const found = array1.find(element => element > 10);
+
+        console.log(found);
+        // expected output: 12
+        // other elements satisfy given condition, but this is the 'first' element that satisfies that condition 
+        
+        
+
+        // 3. Map
+        // 
+
+
+
+
+
+
+
     </script>
 
 
